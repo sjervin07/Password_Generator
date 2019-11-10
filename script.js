@@ -4,7 +4,7 @@ let low= ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r
 let cap= ["A","B","C","D","E","F","G","H","I","J","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
 let sym= ["!","@","#","$","%","^","&","*","=","+","?","-","_"]
 let mixed= []
-let password = ""
+let password = "";
 
 
 function generate() {
@@ -53,13 +53,14 @@ for (let x = 0; x < charLength; x++) {
 if (mixed.length === 0) {
     alert("You must choose at least one character type.");
 }
-else
+else{
 
 
 //Function that populates password into display area
-alert ("Here's your password: " + password)
+alert ("Your password is: " + password)
 document.getElementById("display").value = password;
 
+}
 }
 
 //Function that copies password to clipboard
