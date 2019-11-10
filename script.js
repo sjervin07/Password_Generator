@@ -42,10 +42,23 @@ if (symYes) {
     mixed.push.apply(mixed, specialChar)
 }
 
-if (mixed !== "") {
 
-    alert("You must choose at least one character type.")
-}}
+for (let x = 0; x < charLength; x++) {
+    
+    password = password + mixed[Math.floor(Math.random() * mixed.length)];
+}    
+    
+if (mixed.length === 0) {
+    alert("You must choose at least one character type.");
+}
+else
+
+alert ("Here's your password: " + password)
+document.getElementById("display").value = password;
+
+}
+
+
 
 
 
