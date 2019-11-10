@@ -19,6 +19,7 @@ nav {
   background-color: salmon; 
   border: none;
   color: black;
+  position: relative;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -30,6 +31,7 @@ nav {
     background-color: salmon; 
     border: none;
     color: black;
+    position: relative;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
