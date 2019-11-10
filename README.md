@@ -1,1 +1,7 @@
 In need of a tool that will provide you with a random password using varied lengths and characters? This password generator is just what you're looking for! It will allow you to choose the length you want as well as any combination of upper and lower case letters, numbers and special characters. To increase user functionality, you can also copy your new password right to your clipboard and paste it wherever you need it. Happy generating!
+
+Here is a screen shot of the generator as well as a link to the deployed site.
+
+
+
+
