@@ -1,45 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <title>Password Generator</title>
 
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  
-  <body>
-    <nav class="navbar navbar-light" style="background-color: lightsalmon;">
-        <a class="navbar-brand" href="#">Password Generator</a>
-      </nav>
-      
-      <div class="container">
-        
-        <div class="row">
-          
-          <div class="col-lg-8 col-sm-12 mx-auto text-center">
-            
-            <div class="content">
-              <h4>Generate a Random Password</h4>
-              <br/>
-              <input type="text" id="display">
-              <br/>
-              <br/>
-              <button class="button" onclick="generate()">Generate Password</button>
-              <button class ="button2" onclick="copyPassword()">Copy to Clipboard</button>
-              
-            </div>
-          </div>
-          
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Password Generator</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-light" style="background-color: lightsalmon;">
+    <a class="navbar-brand" href="#">Password Generator</a>
+  </nav>
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-lg-8 col-sm-12 mx-auto text-center">
+
+        <div class="content">
+          <h4>Generate a Random Password</h4>
+          <br />
+          <input type="text" id="display">
+          <br />
+          <br />
+          <button class="button" onclick="generate()">Generate Password</button>
+          <button class="button2" onclick="copyPassword()">Copy to Clipboard</button>
+
         </div>
-        
       </div>
-    </body>
-    <script src="script.js"></script>
+
+    </div>
+
+  </div>
+</body>
+<script src="script.js"></script>
+
 </html>
