@@ -2,10 +2,9 @@ In need of a tool that will provide you with a random password using varied leng
 
 Here is a link to the deployed site:
 
-
 <a href= "https://sjervin07.github.io/Password_Generator/">
 
-
+![image](https://user-images.githubusercontent.com/56142782/68539806-6aa8c800-034e-11ea-8bdf-5a1284733280.png)
 
 
 
