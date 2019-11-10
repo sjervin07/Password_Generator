@@ -39,7 +39,7 @@ if (capYes) {
 
 let symYes = confirm ("Would you like to use symbols in your password?")
 if (symYes) {
-    mixed.push.apply(mixed, specialChar)
+    mixed.push.apply(mixed, sym)
 }
 
 
