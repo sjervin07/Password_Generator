@@ -58,6 +58,12 @@ document.getElementById("display").value = password;
 
 }
 
+function copyPassword() {
+    document.getElementById("display").select();
+    document.execCommand("Copy");
+    alert("Password copied to clipboard");
+}
+
 
 
 
